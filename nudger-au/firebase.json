@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "nudger-au",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}
