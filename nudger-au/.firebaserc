@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "nudger-au": {
+      "hosting": {
+        "nudger-au": [
+          "nudger-au"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "nudger-au"
+  }
+}
