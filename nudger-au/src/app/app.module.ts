@@ -12,8 +12,6 @@ import { provideFirestore, getFirestore, Firestore, initializeFirestore, connect
 import { provideFunctions, getFunctions, connectFunctionsEmulator } from '@angular/fire/functions';
 import { provideMessaging, getMessaging, Messaging } from '@angular/fire/messaging';
 import { provideStorage, getStorage } from '@angular/fire/storage';
-// import { initializeApp } from 'firebase/app';
-// initializeApp(environment.firebase)
 import { ServiceWorkerModule } from '@angular/service-worker';
 
 @NgModule({
