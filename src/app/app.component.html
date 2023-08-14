@@ -7,7 +7,7 @@
 <h1>
   <p>
     Messaging!
-    <code>{{ token$ | async | slice:0:12 }}<ng-container *ngIf="(token$ | async) !== null">&hellip;</ng-container></code>
+    <code>{{ token$ | async }}<ng-container *ngIf="(token$ | async) !== null">&hellip;</ng-container></code>
     &nbsp;<code>{{ message$ | async | json }}</code>
     <button (click)="request()" *ngIf="showRequest">Request FCM token</button>
   </p>
